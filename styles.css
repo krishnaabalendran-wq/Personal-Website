@@ -257,6 +257,14 @@ body {
     background: var(--bg-color);
 }
 
+#orderly {
+    width:150%;
+    height: 105%;
+    object-fit: cover;
+    border: var(--border-thickness) solid var(--main-color);
+    background: var(--bg-color);
+}
+
 .sharp-badge {
     position: absolute;
     bottom: -25px;
