@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Balendran - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <header class="navbar-wrapper slide-up">
+        <a href="#home" class="logo">Krishna Balendran</a>
+        <nav class="navbar"> 
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <a href="#contact" class="nav-cta">LET'S TALK ↗</a>
+    </header>
+
+    <section id="home" class="hero-section section-padding">
+        <div class="hero-content slide-up">
+            <div class="greeting">HELLO, I'M KRISHNA</div>
+            <h1 class="hero-title">COMPUTER SYSTEMS<br>ENGINEERING.</h1>
+            
+            <p class="hero-desc">
+                Bridging the gap between hardware and software at Carleton University. I build efficient, scalable solutions and tackle complex engineering problems.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">START A PROJECT</a>
+                <a href="https://github.com/krishnaabalendran-wq?tab=repositories" class="btn-secondary">GITHUB</a>
+                <a href="https://www.linkedin.com/in/krishna-balendran-b8b355229/" class="btn-secondary">LINKEDIN</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLPnkMLVBdhCQcvZtXPdCpJJsFcgbDGHhVsfDTMLZnlgbNqCsrcqVTdWHFBBBmGSpvMlCR" class="btn-secondary">EMAIL</a>
+                <a href="#" class="btn-secondary">DOWNLOAD CV</a>
+            </div>
+
+        </div>
+        <div class="hero-image-wrapper slide-up">
+            <div class="image-backdrop"></div>
+            <img id="self" src="./self.png" alt="Krishna Balendran">
+            <div class="sharp-badge">HARDWARE<br>+ SOFTWARE</div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="section-header slide-up">
+            <h2 class="section-title">WHAT I DO</h2>
+            <p class="section-subtext">Focusing on high-performance logic, low-level architecture, and seamless integrations.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="brutal-card inverted slide-up">
+                <div class="icon">[ 01 ]</div>
+                <h3>SOFTWARE<br>DEV</h3>
+                <p>Python, Java, C++, optimizing data structures and logic.</p>
+            </div>
+            <div class="brutal-card slide-up">
+                <div class="icon">[ 02 ]</div>
+                <h3>EMBEDDED<br>SYSTEMS</h3>
+                <p>Microcontrollers, real-time operating systems, and hardware interfacing.</p>
+            </div>
+            <div class="brutal-card slide-up">
+                <div class="icon">[ 03 ]</div>
+                <h3>WEB<br>FRONT-END</h3>
+                <p>Building interactive dashboards to visualize complex engineering metrics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-padding">
+        <div class="section-header slide-up">
+            <h2 class="section-title">CASE STUDIES</h2>
+            <p class="section-subtext">Recent applications, hardware programming, and logic optimization.</p>
+        </div>
+
+        <div class="portfolio-list">
+            <div class="portfolio-row slide-up">
+                <div class="portfolio-info">
+                    <span class="brutal-tag">EMBEDDED</span>
+                    <h3>PROJECT ALPHA</h3>
+                    <p>A microcontroller-based embedded system designed to automate environmental monitoring with real-time data logging.</p>
+                    <a href="#" class="btn-primary">SEE DETAILS ↗</a>
+                </div>
+                <div class="portfolio-visual">
+                    <div class="visual-placeholder">IMG_ALPHA.JPG</div>
+                </div>
+            </div>
+
+            <div class="portfolio-row reverse slide-up">
+                <div class="portfolio-info">
+                    <span class="brutal-tag">SOFTWARE</span>
+                    <h3>PROJECT BETA</h3>
+                    <p>A custom software application built in C++ to optimize sorting algorithms for large-scale datasets.</p>
+                    <a href="#" class="btn-primary">SEE DETAILS ↗</a>
+                </div>
+                <div class="portfolio-visual">
+                    <div class="visual-placeholder">IMG_BETA.JPG</div>
+                </div>
+            </div>
+
+            <div class="portfolio-row slide-up">
+                <div class="portfolio-info">
+                    <span class="brutal-tag">WEB DEV</span>
+                    <h3>PROJECT GAMMA</h3>
+                    <p>An interactive web dashboard visualizing complex engineering metrics using modern front-end technologies.</p>
+                    <a href="#" class="btn-primary">SEE DETAILS ↗</a>
+                </div>
+                <div class="portfolio-visual">
+                    <div class="visual-placeholder">IMG_GAMMA.JPG</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+        <div class="contact-header slide-up">
+            <h2 class="contact-title">SAY HI.</h2>
+            <p class="contact-subtitle">Currently open to internships and collaborative engineering projects.</p>
+        </div>
+
+        <form class="brutal-form slide-up">
+            <div class="input-row">
+                <div class="input-group">
+                    <label>NAME *</label>
+                    <input type="text" placeholder="YOUR NAME" required>
+                </div>
+                <div class="input-group">
+                    <label>EMAIL *</label>
+                    <input type="email" placeholder="YOUR@EMAIL.COM" required>
+                </div>
+            </div>
+            
+            <div class="input-group full-width">
+                <label>COMPANY NAME</label>
+                <input type="text" placeholder="ORGANIZATION">
+            </div>
+
+            <div class="input-group full-width">
+                <label>TOPIC OF INTEREST *</label>
+                <div class="brutal-radio-group">
+                    <label class="brutal-radio">
+                        <input type="radio" name="topic" checked>
+                        <span>INTERNSHIP</span>
+                    </label>
+                    <label class="brutal-radio">
+                        <input type="radio" name="topic">
+                        <span>SOFTWARE DEV</span>
+                    </label>
+                    <label class="brutal-radio">
+                        <input type="radio" name="topic">
+                        <span>EMBEDDED SYS</span>
+                    </label>
+                    <label class="brutal-radio">
+                        <input type="radio" name="topic">
+                        <span>OTHER</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="input-group full-width">
+                <label>MESSAGE *</label>
+                <textarea rows="4" placeholder="TELL ME ABOUT YOUR IDEA..." required></textarea>
+            </div>
+
+            <div class="submit-row">
+                <button type="submit" class="btn-primary">TRANSMIT MESSAGE</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/krishna-balendran-b8b355229/">LINKEDIN</a>
+            <a href="https://github.com/krishnaabalendran-wq?tab=repositories">GITHUB</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLPnkMLVBdhCQcvZtXPdCpJJsFcgbDGHhVsfDTMLZnlgbNqCsrcqVTdWHFBBBmGSpvMlCR">EMAIL</a>
+        </div>
+        <div>KRISHNA BALENDRAN</div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    observer.unobserve(entry.target); 
+                }
+            });
+        }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+        document.querySelectorAll('.slide-up').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
